@@ -3,7 +3,6 @@
 var express = require('express');
 
 var requestHeaderParserRouter = express.Router();
-// requestHeaderParserRouter.use(bodyParser.json());
 
 requestHeaderParserRouter.route('/')
     .get(function(req, res) {
